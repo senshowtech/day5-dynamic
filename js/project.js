@@ -142,12 +142,12 @@ function dynamicData(index) {
   localStorage.setItem("id", index);
   localStorage.setItem("blogs", JSON.stringify(blogs));
   let a = document.createElement("a");
-  a.href = "http://127.0.0.1:5500/detail.html";
+  a.href = "https://day5-febrisena.vercel.app/detail.html";
   a.click();
 }
 
 function staticData() {
   let a = document.createElement("a");
-  a.href = "http://127.0.0.1:5500/detail-static.html";
+  a.href = "https://day5-febrisena.vercel.app/detail-static.html";
   a.click();
 }
