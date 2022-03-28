@@ -69,7 +69,7 @@ function renderBlog() {
       <a href="./detail.html">
       <h3>Judul</h3>
       </a>
-      <p>durasi: 3 bulan yang lalu</p>
+      <p>durasi: 3 bulan</p>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, non.
         Dolores molestias pariatur, nobis consequatur quis qui? Illo, sed
@@ -130,11 +130,11 @@ function getDate(get_start_date, get_end_date) {
   let minggu = Math.floor(hari / 7);
   let bulan = Math.floor(hari / 30);
   if (hari <= 6) {
-    return `${hari} hari yang lalu`;
+    return `${hari} hari`;
   } else if (hari > 30) {
-    return `${bulan} bulan yang lalu`;
+    return `${bulan} bulan`;
   } else if (hari >= 6) {
-    return `${minggu} minggu yang lalu`;
+    return `${minggu} minggu`;
   }
 }
 
