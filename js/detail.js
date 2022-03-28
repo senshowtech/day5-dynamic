@@ -69,10 +69,10 @@ function getDate(get_start_date, get_end_date) {
   let minggu = Math.floor(hari / 7);
   let bulan = Math.floor(hari / 30);
   if (hari <= 6) {
-    return `${hari} hari yang lalu`;
+    return `${hari} hari`;
   } else if (hari > 30) {
-    return `${bulan} bulan yang lalu`;
+    return `${bulan} bulan`;
   } else if (hari >= 6) {
-    return `${minggu} minggu yang lalu`;
+    return `${minggu} minggu`;
   }
 }
